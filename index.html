@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
+    <script src="burger.js" defer></script>
+    <script src="todo.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="header_nav">
+            <ul class="header_ul">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="catalog.html">
+                    <li>Catalog</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact Us</li>
+                </a>
+            </ul>
+        </nav>
+        <i class="burger"></i>
+        <i class="xmark"></i>
+
+    </header>
+
+    <div class="wrapper">
+        <img class="image" src="img/home.jpg" alt="image">
+        <h2 class="title"> image title </h2>
+    </div>
+
+
+    <div class="pDiv"></div>
+    <div class="pDiv"></div>
+    <div class="pDiv"></div>
+
+    <div class="box"></div>
+
+
+    <div class="toDoInput">
+        <h2>To Do list</h2>
+        <input type="text" id="myInput" placeholder="todo title">
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+
+</html>
